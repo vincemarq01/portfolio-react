@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #e6e7e4;
+	color: #0a0b0a;
+}
+
+.parent-container {
+	overflow: hidden;
+	height: 100vh;
+}
+
+.parent-container::-webkit-scrollbar {
+	width: 0.5rem; /* Adjust as needed */
+}
+
+.parent-container::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.parent-container::-webkit-scrollbar-thumb {
+	background-color: transparent;
+}
