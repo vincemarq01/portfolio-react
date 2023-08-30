@@ -21,23 +21,23 @@ const Navbar = () => {
 	};
 
 	return (
-		<section className="fixed h-24 w-full  md:mx-auto  bg-[#a7a9a2]">
-			<div className="mx-5 flex relative justify-between h-24 items-center md:mx-auto max-w-[1000px] text-[#0a0b0a] z-0 ">
+		<section className="fixed h-24 w-full md:mx-5 lg:mx-auto  bg-white z-10">
+			<div className="mx-5 flex relative justify-between h-24 items-center md:mx-auto max-w-[1000px] text-black  ">
 				<div href="/" className="font-Poppins">
 					Vince Marq Montilla
 				</div>
 
-				<div>
+				<div className="">
 					{skills.map((skills) => {
 						<img src={skills.icon}></img>;
 					})}
 				</div>
 				<div>
-					<ul className="hidden md:flex w-full font-Poppins z-50">
+					<ul className="hidden md:flex w-full font-Poppins md:mx-5 z-50">
 						{navLinks.map((links) => {
 							return (
 								<Link to={links.url} smooth>
-									<li className="px-2">{links.title}</li>
+									<li className="px-2 hover:bg-[#30A2FF] hover:text-white py-2 rounded-md">{links.title}</li>
 								</Link>
 							);
 						})}

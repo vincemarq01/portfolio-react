@@ -34,19 +34,27 @@ export const skills = [
 		icon: "js.svg",
 	},
 	{
-		name: "React",
+		name: "React JS",
 		icon: "react.svg",
 	},
 	{
-		name: "CSS",
-		icon: "css.svg",
+		name: "TailwindCSS",
+		icon: "tailwind.svg",
 	},
 	{
-		name: "Javascript",
-		icon: "js.svg",
+		name: "Bootstrap",
+		icon: "bootstrap4.svg",
 	},
 	{
-		name: "React",
-		icon: "react.svg",
+		name: "PostMan",
+		icon: "postman.svg",
+	},
+	{
+		name: "Sourcetree",
+		icon: "sourcetree.svg",
+	},
+	{
+		name: "Jira Software",
+		icon: "Jira.svg",
 	},
 ];

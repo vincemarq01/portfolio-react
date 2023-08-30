@@ -5,7 +5,7 @@ import SkillCard from "../SkillCard";
 import { skills } from "../../constant/content";
 const Skills = () => {
 	return (
-		<section id="skills" className="flex flex-col max-w-[1000px] mx-auto h-screen  text-white ">
+		<section id="skills" className="flex flex-col max-w-[1000px] mx-5 md:mx-5 lg:mx-auto h-screen  text-white ">
 			<div className="my-auto">
 				<motion.div variants={fadeIn("right", 0.7, 0.6)} initial="hidden" whileInView="show" viewport={{ once: "false", amount: 0.4 }} className="py-[50px] ">
 					<h1 className="text-4xl font-bold font-Poppins text-left text-[#0a0b0a] ">Skills</h1>
