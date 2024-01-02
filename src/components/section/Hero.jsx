@@ -25,9 +25,12 @@ const Hero = () => {
 					</motion.p>
 
 					<motion.div variants={fadeIn("right", 1, 0.8)} initial="hidden" animate="show" viewport={{ once: false, amount: 0.7 }} className="flex flex-row gap-1  ">
-						<FaGithub size={50} className="cursor-pointer text-black hover:bg-[#30A2FF] hover:text-white p-3 rounded-md" />
-
-						<FaLinkedin size={50} className="cursor-pointer  text-black hover:bg-[#30A2FF] hover:text-white p-3 rounded-md " />
+						<a href="https://github.com/vincemarq01" target="_blank">
+							<FaGithub size={50} className="cursor-pointer text-black hover:bg-[#30A2FF] hover:text-white p-3 rounded-md" />
+						</a>
+						<a href="https://www.linkedin.com/in/vince-marq-montilla-887302191/" target="_blank">
+							<FaLinkedin size={50} className="cursor-pointer  text-black hover:bg-[#30A2FF] hover:text-white p-3 rounded-md " />\
+						</a>
 					</motion.div>
 				</div>
 			</div>

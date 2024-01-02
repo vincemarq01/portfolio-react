@@ -9,6 +9,10 @@ body {
 	color: #0a0b0a;
 }
 
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns:before {
+	background: #30a2ff;
+}
+
 .iconHover:hover {
 	background-color: #35a29f;
 	color: white;
